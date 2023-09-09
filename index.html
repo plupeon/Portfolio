@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Portifólio wichfotos</title>
+</head>
+<body>
+    <header>
+        <h1>Wichfotos</h1>
+        <nav>
+            <ul>
+                <li>Menu principal</li>
+                <li>Apresentação</li>
+                <li>Portifólio</li>
+                <li>Contatos</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Wich-fotos</h1>
+        <p>
+            Portifólio fotográfico pessoal de Wichard.
+            <br><br>
+            <a href="https://www.google.com.br/?hl=pt-BR">Link</a>
+        </p>    
+
+        <figure>
+            <img src="imagens/Perfil.jpg" alt="Fotografia de wichard"
+            
+            width="100"
+            height="100"
+            />
+            <figcaption>Perfil</figcaption>
+        </figure>
+
+        <table border="1">
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+            <tr>
+                <td>Ted</td>
+                <td>22</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Ralf</td>
+                <td>26</td>
+                <td>Designer</td>
+            </tr>
+        </table>
+        <p></p>
+        <table border>
+            <thead>
+                    <tr>
+                           <th>Coluna 1</th>
+                           <th>Coluna 2</th>
+                    </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                           <td>Conteúdo coluna 1 linha 1</td>
+                           <td>Conteúdo coluna 2 linha 1</td>
+                    </tr>
+                    <tr>
+                           <td>Conteúdo coluna 1 linha 2</td>
+                           <td>Conteúdo coluna 2 linha 2</td>
+                    </tr>
+            </tbody>
+            <tfoot>
+                    <tr>
+                           <td>Conteúdo coluna 1 linha 3</td>
+                           <td>Conteúdo coluna 2 linha 3</td>
+                    </tr>
+            </tfoot>
+        </table>
+
+        <video controls
+        width="200"
+        height="400"
+        >
+            <source src="videos/Exemplo.mp4" type="video/mp4"/>    
+        </video>
+    </section>
+    <section> 
+        <h2>Orçamento</h2>
+        <form method="GET" action="">
+        
+                <label for="fname">Nome:</label><br><br>
+                <input type="text" id="fname" name="nome"><br><br>
+
+                <label>E-mail:</label><br><br>
+                <input type="email" id="femail" name="E-mail"><br><br>
+
+                <label>Data de nascimento:</label><br><br>
+                <input type="date" name="datadenascimento"><br><br>
+
+                <fieldset>
+                    <legend>Pacotes disponíveis</legend>
+                    <br><input type="checkbox" name="pacotes" value="pacotes">Pacote 5 por 1
+                    <br><input type="checkbox" name="pacotes" value="pacotes">Fotos de Perfil
+                    <br><input type="checkbox" name="pacotes" value="pacotes">Fotos de rede social
+                </fieldset>
+    
+
+
+                <br><input type="submit" value="Submit"><br>
+        </form>  
+    </section>
+    <hr>
+    <footer>
+        <p>Acesse o site</p>
+    </footer>
+    <!-- Script inserido no final do site para evitar demora no carregamento incial do site -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+
+</html>

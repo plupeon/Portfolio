@@ -1,0 +1,70 @@
+<!-- O objetivo desta atividade é permitir que os alunos apliquem os conceitos aprendidos na aula “Continuação: formulários com HTML”,
+    criando um formulário de reserva de viagem mais avançado que incorpora diferentes tipos de campos de entrada,
+    incluindo caixas de seleção, botões de rádio e listas suspensas. 
+-caixas de seleção
+-botões de rádio
+-listas suspensas
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <h1>Caravelas.com</h1>
+        </header>
+        <section>
+            <h1>Veleje por todo país</h1>
+            <p>Evidentemente, a hegemonia do ambiente político possibilita uma melhor visão global das condições financeiras e administrativas exigidas. Neste sentido, a competitividade nas transações comerciais promove a alavancagem do retorno esperado a longo prazo. É importante questionar o quanto a complexidade dos estudos efetuados exige a precisão e a definição do sistema de participação geral. No entanto, não podemos esquecer que a necessidade de renovação processual ainda não demonstrou convincentemente que vai participar na mudança das formas de ação. O cuidado em identificar pontos críticos no novo modelo estrutural aqui preconizado desafia a capacidade de equalização das regras de conduta normativas.</p>
+        </section>
+        <section>
+            <table border="1">
+                <tr>
+                    <td>Lugares</td>
+                    <td>Valores</td>
+                </tr>
+                <tr>
+                    <td>São Genuino</td>
+                    <td>R$ 5.000</td>
+                </tr>
+            </table>
+        </section>
+
+            <h2>Orçamento</h2> 
+            <form method="GET" action="">
+                <fieldset>               
+                    <label>Nome</label><br>
+                    <input type="text" required name="nome"><br><br>
+
+                    <label>E-mail</label><br>
+                    <input type="email" required name="email"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>brindes</legend>
+                    <input type="checkbox" name="brinde1" value="brindes1">Reserva de restaurante
+                    <input type="checkbox" name="brinde2" value="brindes2">Ticket de R$200
+                    <input type="checkbox" name="brinde3" value="brindes3">Foto + chaveiro
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pacotes</legend>
+                    <input type="radio" name="cidades" value="pacotes1">Viajar para uma cidade
+                    <input type="radio" name="cidades" value="pacoes2">Viajar para duas cidades
+                    <input type="radio" name="cidades" value="pacotes3">Viajar para três cidades
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pagamento</legend>
+                    <select name="prazopagamento">
+                        <option value="aVista">à vista</option>
+                        <option value="5xsemjuros">5x sem juros</option>
+                        <option value="12xcomjuros" selected>12x com juros</option>
+                    </select>
+                </fieldset>
+                <br><input type="submit" value="submit"><br>
+            </form>
+    </body>
+</html>
